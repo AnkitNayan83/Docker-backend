@@ -1,0 +1,15 @@
+###
+GET http://localhost:13000/setup
+
+###
+GET http://localhost:13000/
+
+###
+POST http://localhost:13000/
+Content-Type: application/json
+
+{
+    "student_name": "Arthur",
+    "address": "xyz 123 lane BM",
+    "age": 15
+}
